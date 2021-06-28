@@ -1,8 +1,7 @@
-import SignIn from './pages/SignIn'
-
+import SignIn from "./pages/SignIn";
 
 function App() {
-  return   <SignIn/>
+  return <SignIn />;
 }
 
 export default App;
