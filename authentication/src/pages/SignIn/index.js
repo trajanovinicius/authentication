@@ -3,6 +3,7 @@ import reformImg from "../../assets/reform.svg";
 import explicImg from "../../assets/explic.svg";
 import { InputLogin } from "../../components/InputLogin";
 import { ButtonLogin } from "../../components/ButtonLogin";
+import { ButtonGoogle } from "../../components/ButtonGoogle";
 
 export default function SignIn() {
   return (
@@ -15,6 +16,7 @@ export default function SignIn() {
         <InputLogin label="E-mail" />
         <InputLogin label="Senha" />
         <ButtonLogin />
+        <ButtonGoogle />
       </Form>
     </Container>
   );
